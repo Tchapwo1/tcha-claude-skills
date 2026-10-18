@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tcha-guard": {
+      "command": "npx",
+      "args": ["-y", "tcha-protection", "guard", "--mcp"]
+    }
+  }
+}

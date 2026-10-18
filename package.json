@@ -1,0 +1,36 @@
+{
+  "name": "tcha-claude-skills",
+  "version": "1.0.0",
+  "description": "Deterministic transport firewall and boundary security suite for Claude Code, Claude Desktop, and Model Context Protocol (MCP).",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx tcha-protection audit",
+    "audit": "npx tcha-protection audit"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-desktop",
+    "claude-skills",
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "mcp-security",
+    "ai-security",
+    "agent-firewall",
+    "prompt-injection",
+    "ssrf-defense",
+    "merkle-audit"
+  ],
+  "author": "Tcha Protection Pro <support@tcha.dev> (https://tcha.dev)",
+  "license": "MIT",
+  "homepage": "https://tcha.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tchapwo1/tcha-claude-skills.git"
+  },
+  "dependencies": {
+    "tcha-protection": "^2.0.1"
+  }
+}
